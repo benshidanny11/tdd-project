@@ -1,8 +1,8 @@
 class Solver
-
   def factorial(num)
     raise 'Provided number is less than 0' if num.negative?
     return 1 if num.zero?
+
     fact = 1
     (1..num).each do |i|
       fact *= i
@@ -25,5 +25,4 @@ class Solver
       number.to_s
     end
   end
-
 end
